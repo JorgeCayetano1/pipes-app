@@ -18,14 +18,17 @@ export class MenuBarComponent implements OnInit {
           {
             label: 'Text and Dates',
             icon: 'pi pi-align-left',
+            routerLink: '/',
           },
           {
             label: 'Numbers',
             icon: 'pi pi-dollar',
+            routerLink: 'numbers',
           },
           {
             label: 'No common',
             icon: 'pi pi-globe',
+            routerLink: 'uncommon',
           },
         ],
       },
